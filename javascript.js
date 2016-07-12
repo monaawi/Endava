@@ -14,10 +14,13 @@ function validateForm() {
         alert("Invalid Email");
         return false;
     }  
-     var numbers = /^[0-9]+$/;  
+     var numbers = /^[0-9]+$/;
+     if(!(z==null)) {
+        if(!(z=="")){
       if(!z.match(numbers))   
       {  
       alert('Please input numeric characters only in phone field');  
       return false;  
       }  
+  }}
 }

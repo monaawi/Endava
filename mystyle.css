@@ -181,8 +181,8 @@ padding-left: 70%;
 
 #contact-area{
 	background-color: white;
-	width:700px;
-	height:100px;
+	width:70%;
+	height:100%;
 	padding-right: 50%;
 }
 .white-box{
@@ -194,7 +194,7 @@ padding-left: 70%;
 #endava{
 	padding-top:4%;
 	font-family: sans-serif;
-	font-size: 35px;
+	font-size: 25px;
 	padding-bottom: 2%;
 	color:grey;
 }
@@ -224,4 +224,10 @@ padding-left: 70%;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    width:100%;
+}
+@media screen and (max-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
 }
