@@ -226,8 +226,15 @@ padding-left: 70%;
     font-size: 16px;
     width:100%;
 }
-@media screen and (max-width: 480px) {
+#responsiveFooter{
+	display: none;
+}
+@media screen and (max-width: 370px) {
     body {
         background-color: lightgreen;
+
+    }
+    #responsiveFooter {
+    	display: initial;
     }
 }
